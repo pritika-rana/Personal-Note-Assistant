@@ -1,0 +1,36 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment and secrets
+.env
+
+# IDE settings
+.idea/
+
+# ChromaDB vector store (runtime data)
+data/chroma_db/
+
+# User profile (contains personal data)
+data/user_profile.json
+
+# Logs and traces (runtime generated)
+logs/
+*.log
+*.jsonl
+
+# Build and packaging
+*.egg-info/
+dist/
+build/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# macOS
+.DS_Store
